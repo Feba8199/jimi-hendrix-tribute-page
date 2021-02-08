@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+   box-sizing: border-box;
+}
+h1 {
+   text-align: center;
+}
+.outer-grid {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 0 4px;
+}
+.inner-grid {
+   flex: 25%;
+   max-width: 25%;
+   padding: 0 4px;
+}
+.inner-grid img {
+   margin-top: 8px;
+   width: 100%;
+   padding: 10px;
+}
+@media screen and (max-width: 800px) {
+   .inner-grid {
+      flex: 50%;
+      max-width: 50%;
+   }
+}
+@media screen and (max-width: 600px) {
+   .inner-grid {
+      flex: 100%;
+      max-width: 100%;
+   }
+}
+</style>
+</head>
+<body>
+  <div id="main">
+<h1> Jimi Hendrix</h1>
+<div id="img-div">
+<div class="row">
+  <div class="column">
+  <img src="C:\Users\gladi\Downloads\Jimi.jpg" alt="Jimi Hendrix" id="image" height="650" width="650">
+  <img src="C:\Users\gladi\Downloads\jimi1.jpg" alt="Jimi Hendrix1" id="image1"height="450" width="350" >
+  <img src="C:\Users\gladi\Downloads\jimi2.jpg" alt="Jimi Hendrix2" id="image2" height="450" width="350">
+  <img src="C:\Users\gladi\Downloads\jimi3.jpg" alt="Jimi Hendrix3" id="image3" height="450" width="350">
+</div>
+<div class="column">
+  <img src="C:\Users\gladi\Downloads\jimi4.jpg" alt="Jimi Hendrix4" id="image4"height="450" width="650" >
+  <img src="C:\Users\gladi\Downloads\jimi5.jpg" alt="Jimi Hendrix5" id="image5" height="450" width="350">
+  <img src="C:\Users\gladi\Downloads\jimi6.jpg" alt="Jimi Hendrix6" id="image6" height="450" width="350">
+  <img src="C:\Users\gladi\Downloads\jimi7.jpg" alt="Jimi Hendrix7" id="image7" height="450" width="350">
+</div>
+</div>
+  <p id="img-caption"><em>One of the Greatest Guitar Players Ever</em></p>
+  </div>
+ <div id="tribute-info">
+    <em><b>
+  <br> <p>1. Gratitude  </p>
+  <br> <p>2.  Are You Experienced?</p>
+  <br> <p>3.  Spanish Castle Magic</p>
+  <br> <p>4.  Purple House</p>
+  <br> <p>5.  The Wind Cries Mary</p>
+  <br> <p>6.  Voodoo Child(Slight Return)</p>
+  <br> <p>7.  Power of Soul</p>
+</em></b>
+ </div>
+<a href="https://en.wikipedia.org/wiki/Jimi_Hendrix" target="_blank" id="tribute-info">
+  Learn more about Jimi Hendrix
+</a>
+  </div>
+
+</body>
+
+</html>
