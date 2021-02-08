@@ -11,10 +11,11 @@
 <div class="row">
   <div class="column"></div>
   <div class="column">
-  <img src="C:\Users\gladi\Downloads\j11.jpg" alt="Jimi Hendrix" id="image" >
-  <img src="C:\Users\gladi\Downloads\j12.jpg" alt="Jimi Hendrix1" id="image1" >
-  <img src="C:\Users\gladi\Downloads\j1.jpg" alt="Jimi Hendrix1" id="image1" >
-    <img src="C:\Users\gladi\Downloads\j8.jpg" alt="Jimi Hendrix1" id="image1">
+  <img src="C:\Users\gladi\Desktop\tribute\images\j11.jpg" alt="Jimi Hendrix" id="image" >
+  <img src="C:\Users\gladi\Desktop\tribute\images\j12.jpg" alt="Jimi Hendrix" id="image" >
+  <img src="C:\Users\gladi\Desktop\tribute\images\j1.jpg" alt="Jimi Hendrix" id="image" >
+  <img src="C:\Users\gladi\Desktop\tribute\images\j8.jpg" alt="Jimi Hendrix" id="image" >
+
 </div>
 <div class="column">
   <img src="C:\Users\gladi\Downloads\j2.jpg" alt="Jimi Hendrix1" id="image1" >
